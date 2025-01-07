@@ -58,16 +58,18 @@ a {
 
 /* header */
 
-.header {
-  height: 100vh;
-  background: #e6f0ff;
-  position: relative;
+.fix-header {
+  padding-top: 26px;
+  background-color: #e6f0ff;
+  position: sticky;
+  top: -26px;
+  z-index: 1;
 }
 
-.header .navbar {
+.fix-header .navbar {
   display: flex;
   align-items: center;
-  padding: 38px;
+  padding: 12px;
 }
 
 .navbar ul {
@@ -103,10 +105,16 @@ a {
   border-radius: 8px;
 }
 
+.hero-wrap {
+  height: 100vh;
+  background: #e6f0ff;
+  position: relative;
+}
+
 /* hero */
 
 .hero {
-  margin-top: 130px;
+  padding-top: 130px;
 }
 
 .hero .info {
