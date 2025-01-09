@@ -7,6 +7,11 @@
   font-size: 62.5%;
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 body {
   font-size: 1.6rem;
   font-family: "poppins";
@@ -106,6 +111,8 @@ a {
 }
 
 .hero-wrap {
+  display: flex;
+  align-items: center;
   height: calc(100vh - 90px);
   background: #e6f0ff;
   position: relative;
@@ -113,22 +120,18 @@ a {
 
 /* hero */
 
-.hero {
-  padding-top: 130px;
-}
-
-.hero .info {
+.hero-wrap .info {
   width: 51%;
 }
 
-.hero .info .sub-title {
+.hero-wrap .info .sub-title {
   color: #687690;
   font-size: 1.8rem;
   font-weight: 500;
   letter-spacing: 0.18px;
 }
 
-.hero .info .title {
+.hero-wrap .info .title {
   margin-top: 8px;
   color: #000336;
   font-weight: 700;
@@ -136,7 +139,7 @@ a {
   font-size: 6.2rem;
 }
 
-.hero .info .desc {
+.hero-wrap .info .desc {
   margin-top: 30px;
   color: #5a6473;
   font-size: 1.8rem;
@@ -144,11 +147,11 @@ a {
   line-height: 1.77;
 }
 
-.hero .info .btn {
+.hero-wrap .info .btn {
   margin-top: 40px;
 }
 
-.hero .hero-img {
+.hero-wrap .hero-img {
   position: absolute;
   right: calc((100vw - 1110px) / 2 - 100px);
   bottom: 0;

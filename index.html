@@ -3,15 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon" />
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicon/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./assets/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- reset css -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- font stylesheet -->
     <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
+    <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    <!-- style css -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
-    <title>Document</title>
+    <title>Project-01</title>
   </head>
-  <body style="height: 5000px">
+  <body>
     <header class="fix-header">
       <div class="container">
         <!-- navigation -->
@@ -22,19 +44,19 @@
           <!-- Navigation -->
           <ul>
             <li>
-              <a href="#!">Home</a>
+              <a href="#">Home</a>
             </li>
             <li>
-              <a href="#!">Features</a>
+              <a href="#featured">Features</a>
             </li>
             <li>
-              <a href="#!">Services</a>
+              <a href="#service">Services</a>
             </li>
             <li>
-              <a href="#!">Resources</a>
+              <a href="#resource">Resources</a>
             </li>
             <li>
-              <a href="#!">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
           <!-- action -->
@@ -49,16 +71,14 @@
     <!-- hero -->
     <div class="hero-wrap">
       <div class="container">
-        <div class="hero">
-          <div class="info">
-            <p class="sub-title">Welcome to Besnik Agency</p>
-            <h1 class="title">Discover a place you'll love to live.</h1>
-            <p class="desc">get the best real estate deals first, before they hit the mass market! HOT FORECLOSURE DEALS with one simple search.</p>
-            <a href="" class="btn">More About Us</a>
-          </div>
-
-          <img src="./assets/img/house_illustration.svg" alt="Discover a place you'll love to live." class="hero-img" />
+        <div class="info">
+          <p class="sub-title">Welcome to Besnik Agency</p>
+          <h1 class="title">Discover a place you'll love to live.</h1>
+          <p class="desc">get the best real estate deals first, before they hit the mass market! HOT FORECLOSURE DEALS with one simple search.</p>
+          <a href="" class="btn">More About Us</a>
         </div>
+
+        <img src="./assets/img/house_illustration.svg" alt="Discover a place you'll love to live." class="hero-img" />
       </div>
     </div>
 
@@ -96,7 +116,7 @@
       </div>
 
       <!-- guides -->
-      <div class="guides">
+      <div class="guides" id="service">
         <div class="container">
           <h2 class="sub-title">How its works?</h2>
           <p class="desc">Everything you need to know when you're looking to buy, rent, or sell - all in one place.</p>
@@ -140,7 +160,7 @@
       </div>
 
       <!-- feature -->
-      <div class="feature">
+      <div class="feature" id="featured">
         <div class="container">
           <header>
             <h2 class="sub-title">Featured Properties</h2>
@@ -211,7 +231,7 @@
       </div>
 
       <!-- stat -->
-      <div class="stat">
+      <div class="stat" id="resource">
         <div class="container">
           <div class="row">
             <div class="img-block">
@@ -294,7 +314,7 @@
       </div>
 
       <!-- subscription -->
-      <div class="subscription">
+      <div class="subscription" id="contact">
         <div class="container">
           <div class="body">
             <div class="info">
